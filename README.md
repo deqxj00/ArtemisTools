@@ -46,7 +46,7 @@ ResizeBatch.exe ResizeImage DirInputPath ScaleFactorStr Mode MinThread MaxThread
 
 - **ScaleFactorStr**
 
-  - 可以使用float 缩小比例 例如0.5 0.75
+  - 缩小比例 例如0.5 0.75 
 
 - **Mode**
 
