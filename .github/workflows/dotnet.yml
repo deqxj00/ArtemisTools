@@ -17,9 +17,9 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
     - name: Publish
-      run: cd ArtemisTools/ArtemisTools && dotnet publish -p:PublishProfile=FolderProfile
+      run: cd ArtemisTools && cd ArtemisTools && dotnet publish -p:PublishProfile=FolderProfile
     - name: 7zip release
-      run : 7z a -t7z -mx=9 ArtemisTools_win-x64_release.7z ./ResizeBatch/publish/
+      run : 7z a -t7z -mx=9 ArtemisTools_win-x64_release.7z ./ArtemisTools/ArtemisTools/ResizeBatch/publish/
     - uses: ncipollo/release-action@v1
       with:
         artifacts: "ArtemisTools_win-x64_release.7z"
