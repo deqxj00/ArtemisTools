@@ -70,6 +70,6 @@ https://blog.darkthread.net/blog/tpl-threadpool-usage/
 
 https://github.com/amitsbaghel/PNGCompressor
 
-
+https://github.com/hokejyo/VisualNovelUpscaler
 
 
